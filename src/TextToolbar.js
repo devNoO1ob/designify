@@ -11,7 +11,7 @@ const TextToolbar = ({ setStageData, setSelectedText, setSelectedElement }) => {
     <div class="p-4 bg-gray-100">
       <input
         type="text"
-        class="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent"
+        class="border border-gray-200 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent"
         onChange={handleTextChange}
       />
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = ({ activeElement, numObjects }) => {
   return (
-    <div className="bg-gray-100 p-3 px-20 my-4 flex justify-between rounded-xl">
+    <div className="bg-gray-100 p-3 px-20 my-4 flex justify-between rounded-xl border-gray-400 border-2">
       <div>
         <p className="ml-4 mr-4">
           <b>Toolbar</b>
@@ -13,7 +13,7 @@ const Header = ({ activeElement, numObjects }) => {
       </div>
       <div>
         <p>
-          Anzahl Objekte: <b>{(numObjects)}</b>
+          Anzahl Objekte: <b>{numObjects}</b>
         </p>
       </div>
     </div>

@@ -25,7 +25,7 @@ function ToolBar({
   };
 
   return (
-    <div className="bg-gray-100 h-full p-4 mr-7 rounded-xl grid justify-items-center">
+    <div className="bg-gray-100 h-full p-4 mr-7 rounded-xl grid justify-items-center border-gray-400 border-2">
       <div id="formCollection" className="grid justify-items-center">
         <Form
           selectedElementToolbar={"triangle"}
@@ -48,15 +48,26 @@ function ToolBar({
         selectedColor={selectedColor}
         setSelectedColor={setSelectedColor}
       />
-      <p><b>color___</b>{selectedColor}</p>
-      <p><b>element___</b>{selectedElement}</p>
+      <p>
+        <b>color___</b>
+        {selectedColor}
+      </p>
+      <p>
+        <b>element___</b>
+        {selectedElement}
+      </p>
 
       <TextToolbar
         setSelectedText={setSelectedText}
         setSelectedElement={setSelectedElement}
       />
 
-      <button className="bg-gray-300 rounded-full text-white px-4" onClick={handleExport}>Export as Image</button>
+      <button
+        className="bg-gray-400/50 border-gray-400/70 border-2 rounded-full text-white px-4"
+        onClick={handleExport}
+      >
+        Export as Image
+      </button>
     </div>
   );
 }

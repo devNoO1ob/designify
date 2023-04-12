@@ -167,7 +167,7 @@ const CanvasKonva = ({
     <Stage
       width={window.innerWidth}
       height={window.innerHeight}
-      className="bg-gray-100 w-full rounded-xl"
+      className="bg-gray-100 w-full rounded-xl border-gray-400 border-2"
       onClick={handleCanvasClick}
       ref={stageRef}
     >
