@@ -8,9 +8,12 @@ const TextToolbar = ({ setStageData, setSelectedText, setSelectedElement }) => {
   };
 
   return (
-    <div className="p-4 bg-gray-100">
-      <label className="mr-2 font-semibold">Text:</label>
-      <input type="text" onChange={handleTextChange} />
+    <div class="p-4 bg-gray-100">
+      <input
+        type="text"
+        class="border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent"
+        onChange={handleTextChange}
+      />
     </div>
   );
 };

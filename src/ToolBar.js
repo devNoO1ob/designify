@@ -48,15 +48,15 @@ function ToolBar({
         selectedColor={selectedColor}
         setSelectedColor={setSelectedColor}
       />
-      <p>{selectedColor}</p>
-      <p>{selectedElement}</p>
+      <p><b>color___</b>{selectedColor}</p>
+      <p><b>element___</b>{selectedElement}</p>
 
       <TextToolbar
         setSelectedText={setSelectedText}
         setSelectedElement={setSelectedElement}
       />
 
-      <button className="bg-gray-400 rounded-xl p-3" onClick={handleExport}>Export as Image</button>
+      <button className="bg-gray-300 rounded-full text-white px-4" onClick={handleExport}>Export as Image</button>
     </div>
   );
 }
