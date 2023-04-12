@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/designify/static/css/main.78b450ca.css",
+    "main.js": "/designify/static/js/main.921b5463.js",
+    "static/js/787.a18b899f.chunk.js": "/designify/static/js/787.a18b899f.chunk.js",
+    "index.html": "/designify/index.html",
+    "main.78b450ca.css.map": "/designify/static/css/main.78b450ca.css.map",
+    "main.921b5463.js.map": "/designify/static/js/main.921b5463.js.map",
+    "787.a18b899f.chunk.js.map": "/designify/static/js/787.a18b899f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78b450ca.css",
+    "static/js/main.921b5463.js"
+  ]
+}
