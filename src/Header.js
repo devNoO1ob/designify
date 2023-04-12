@@ -9,7 +9,7 @@ const Header = ({ activeElement, numObjects }) => {
         </p>
       </div>
       <div>
-        <h1 className="text-2xl font-bold text-gray-800">Grafikly</h1>
+        <h1 className="text-2xl font-bold text-gray-800">Grafiklly</h1>
       </div>
       <div>
         <p>
